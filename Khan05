@@ -1,0 +1,21 @@
+CREATE TABLE fruit_store (id INTEGER PRIMARY KEY, type TEXT, price INTEGER, quantity INTEGER, season TEXT);
+
+INSERT INTO fruit_store VALUES (1, "Apple", 10, 500, "IN");
+INSERT INTO fruit_store VALUES (2, "Banana", 15, 400, "OUT");
+INSERT INTO fruit_store VALUES (3, "Orange", 10, 800, "IN");
+INSERT INTO fruit_store VALUES (4, "Blueberry", 14, 200, "OUT");
+INSERT INTO fruit_store VALUES (5, "Strawberry", 18, 150, "OUT");
+INSERT INTO fruit_store VALUES (6, "Grape", 15, 300, "IN");
+INSERT INTO fruit_store VALUES (7, "Plum", 13, 800, "IN");
+INSERT INTO fruit_store VALUES (8, "Watermelon", 30, 50, "OUT");
+INSERT INTO fruit_store VALUES (9, "Mango", 16, 100, "IN");
+INSERT INTO fruit_store VALUES (10, "Fig", 11, 700, "OUT");
+INSERT INTO fruit_store VALUES (11, "Kiwifruit", 12, 400, "IN");
+INSERT INTO fruit_store VALUES (12, "Dragonfruit", 13, 800, "IN");
+INSERT INTO fruit_store VALUES (13, "Cherry", 9, 300, "IN");
+INSERT INTO fruit_store VALUES (14, "Peach", 5, 400, "OUT");
+INSERT INTO fruit_store VALUES (15, "Pear", 14, 600, "IN");
+
+SELECT * FROM fruit_store ORDER BY price;
+
+SELECT AVG(price) As "Avg_price" FROM fruit_store;
