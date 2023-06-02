@@ -1,2 +1,1 @@
-# Project-Design-a-store-database
-Khan academy - Project: Design a store database
+Project: Design a store database
